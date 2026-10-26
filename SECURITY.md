@@ -4,7 +4,7 @@
 
 Please report security issues privately, not in public issues. Use GitHub's
 "Report a vulnerability" button on the repository's Security tab, or email
-the maintainer at SECURITY-CONTACT-PLACEHOLDER.
+the maintainer at navneetforus@gmail.com.
 
 Include what you found, how to reproduce it, and the impact you expect. You'll get
 an acknowledgement within a few days. Please give a reasonable window for a fix

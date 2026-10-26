@@ -36,7 +36,7 @@ Requires Node.js 20.12 or newer and [Ollama](https://ollama.com/download).
 
 ```bash
 ollama pull qwen2.5-coder:7b       # about 4.7 GB; any instruction-tuned model works
-git clone https://github.com/YOUR-USERNAME/diagram-studio.git
+git clone https://github.com/Navneet14-cmd/diagram-studio.git
 cd diagram-studio
 npm install
 cp .env.example .env

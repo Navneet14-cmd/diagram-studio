@@ -10,5 +10,5 @@ Maintainers may remove, edit or reject contributions that don't follow this code
 and may temporarily or permanently ban contributors for behaviour they judge
 inappropriate.
 
-Report problems to the maintainer at CONDUCT-CONTACT-PLACEHOLDER. Reports are
+Report problems to the maintainer at navneetforus@gmail.com. Reports are
 handled confidentially.

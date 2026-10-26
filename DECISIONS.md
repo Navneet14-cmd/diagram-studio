@@ -98,7 +98,3 @@ The Docker image:
   flowchart. The sanitizer deliberately leaves that alone, so the model-backed repair has to fix it.
 - **CI**: a GitHub Actions workflow runs `npm test` on Node 20 and 22. The e2e run isn't in CI because it needs a model.
 
-## Placeholders you need to fill in
-- `YOUR-USERNAME` in the README and the in-app "Source code" links.
-- `SECURITY-CONTACT-PLACEHOLDER` in SECURITY.md and `CONDUCT-CONTACT-PLACEHOLDER` in CODE_OF_CONDUCT.md.
-- The copyright holder in LICENSE ("Navansh") if you want your full name there.
