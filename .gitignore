@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+.DS_Store
+test-results/
+playwright-report/
+coverage/
+# e2e downloads (screenshots in docs/screenshots are committed on purpose)
+docs/screenshots/export-sample.*
