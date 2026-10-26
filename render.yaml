@@ -1,0 +1,25 @@
+# Render Blueprint: https://render.com/docs/blueprint-spec
+# Ollama cannot run on Render's free tier; point this at a hosted OpenAI-compatible API.
+services:
+  - type: web
+    name: diagram-studio
+    runtime: docker
+    plan: free
+    healthCheckPath: /healthz
+    envVars:
+      - key: PROVIDER
+        value: openai
+      - key: BASE_URL
+        value: https://api.openai.com/v1
+      - key: MODEL
+        value: gpt-4o-mini
+      - key: API_KEY
+        sync: false # set it in the Render dashboard; never commit it
+      - key: TRUST_PROXY
+        value: "true"
+      - key: RATE_LIMIT_MAX
+        value: "20"
+      - key: LOG_PROMPTS
+        value: "false"
+      - key: ALLOW_USER_KEYS
+        value: "false"
