@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "start": "node server/server.mjs",
-    "test": "node --test \"test/*.test.mjs\"",
+    "test": "node --test test/*.test.mjs",
     "e2e": "node scripts/e2e.mjs",
     "licenses": "node scripts/licenses.mjs"
   },
